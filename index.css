@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff5f5;
+}
+
+#landing_page {
+    background-image: url(./assets/img/hero-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: overlay;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#logo,
+#navmenu,
+#btn_ {
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#navmenu a {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+  
+    padding: 10px 15px;
+    margin-left: 20px;
+    position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#menu_list li.hero a {
+    color: white;
+}
+
+#navmenu a:hover {
+    color: white;
+}
+
+#menu_list {
+    list-style-type: none;
+    display: flex;
+}
+
+#btn-getstarted {
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#welcome {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#welcome h1 {
+    color: white;
+    font-size: 80px;
+}
+
+#welcome p {
+    color: white;
+}
+
+#input_container {
+
+
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+#input_butt {
+
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    width: 500px;
+}
+
+#butt {
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    /* position: absolute; */
+}
+
+#about {
+    display: flex;
+    margin: 80px 50px;
+}
+
+#first_side {
+    width: 40%;
+    margin-top: 120px;
+}
+
+#first_side>p {
+    background-color: rgb(255, 220, 220);
+    color: red;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#first_side>h2 {
+    margin-bottom: 50px;
+}
+
+#second_side {
+    display: flex;
+    width: 60%;
+}
+
+#up_about,
+#down {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#up_about {
+    height: 200px;
+    margin-top: 100px;
+}
+
+#down_about {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 10px;
+    gap: 30px;
+    border-radius: 10px;
+
+}
+
+#portfolio {
+    background-image: url(./assets/img/stats-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 50vh;
+    background-blend-mode: overlay;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+}
